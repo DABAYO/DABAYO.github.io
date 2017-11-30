@@ -1,0 +1,95 @@
+html {
+    background-image: url('/assets/images/autumn.jpg')
+}
+.css-selector {
+    font-family: 'Oxygen', sans-serif;
+}
+
+header {
+    height: 130px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(252, 215, 6);
+    position: 0, 0;
+    font-family: Oxygen, sans-serif;
+}
+
+/* unvisited link */
+a:link {
+    color: brown;
+    text-decoration: none;
+}
+
+a:visited {
+    color:black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-shadow: 0 0 8px orangered;
+}
+
+a:active {
+    color: green;
+}
+.h1 {
+    font-family: Oxygen, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 60px;
+    font-family: Oxygen, sans-serif;
+    text-shadow: 3px 3px 10px brown;
+}
+
+#port {
+    position: absolute;
+    left: 0;
+    top: 168px;
+    width: 250px;
+    height: 65px;
+    background-color: background-image: -webkit-gradient(linear, left top, left bottom, from(start-color), to(end-color));
+    background-image: -webkit-linear-gradient(top, yellow, orangered);
+    background-image: -moz-linear-gradient(top, yellow, orangered);
+    background-image: linear-gradient(to bottom, yellow, orangered);;
+    font-family: Oxygen, sans-serif;
+    font-size: 40px; 
+    text-align: center;
+    color: white;
+    text decoration: none;
+    float: left;
+    margin: 5 px 5px 5px 5px;
+    padding: 20px;
+}
+
+#con {
+    position: absolute;
+    left: 0px;
+    top: 285px;
+    width: 250px;
+    height: 65px;
+    background-color: background-image: -webkit-gradient(linear, left top, left bottom, from(start-color), to(end-color));
+    background-image: -webkit-linear-gradient(top, orangered, yellow);
+    background-image: -moz-linear-gradient(top, orangered, yellow);
+    background-image: linear-gradient(to bottom, orangered, yellow);;
+    font-family: Oxygen, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    text decoration: none;
+    float: left;
+    margin: 5 px 5px 5px 5px;
+    padding: 20px;
+}
+
+#wrapper {
+    background-image: leaves.jpg;
+    width: 78.5%;
+    margin-left: auto;
+    Margin-right: 30px;
+}
+
+body {
+    font-family: "oxygen", sans-serif;
+}
